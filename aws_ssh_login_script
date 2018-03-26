@@ -2,4 +2,4 @@ echo Enter Key name
 read name
 echo Enter Public ip
 read ip
-ssh -i /home/hotsea/$name ec2-user@$ip
+ssh -i $name ec2-user@$ip
